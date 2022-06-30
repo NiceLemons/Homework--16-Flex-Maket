@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    border-bottom: 1px solid  #CCCCCC;;
+}
+.header img {
+    max-height: 28px;
+    max-width: 130px;
+    margin: 34px 0 33px 36px;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    column-gap: 57px;
+    font: 400 0.9375rem "GraphikRegular";
+    color: black;
+}
+.header_item-link {
+    color: black;
+}
+.header_button {
+    margin: 0 34px 0 auto;
+}
+.header_button-span-Log_in {
+    padding: 14px 36px 13px 36px;
+    border: 1px solid black;
+    font: 600 1rem "GraphikBold";
+    color: black;
+}
+.header_button-span-Try_it_free {
+    padding: 14px 24px 13px 24px;
+    border: 1px solid white;
+    font: 600 1rem "GraphikBold";
+    color: white;
+    background-color: #FF6336;
+    margin-left: 4px;
+}
