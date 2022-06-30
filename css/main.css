@@ -1,0 +1,49 @@
+.banner-image {
+    max-width: 759px;
+    max-height: 529px;
+    position: relative;
+    left: 599px;
+    bottom: 464px;
+}
+.banner {
+    position: relative;
+    top: 85px;
+    left: 60px;
+}
+.banner h1 {
+    font: 600 4.0625rem "GraphikBold";
+    font-style: normal;
+    line-height: 70px;
+    max-width: 552px;
+    max-height: 210px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.banner_text {
+    font: 400 1.5625rem 'GraphikRegular';
+    line-height: 35px;
+    max-width: 471px;
+    max-height: 140px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.banner_button-try_it_free {
+    padding: 22px 42px 22px 42px;
+    border: 1px solid white;
+    font: 600 1rem "GraphikBold";
+    color: white;
+    background-color: #FF6336;
+    margin-right: 4px;
+}
+.banner_button-book_a_demo {
+    padding: 21px 28px 21px 28px;
+    border: 1px solid black;
+    font: 600 1rem "GraphikBold";
+    color: black;
+}
+.banner-note {
+    font: 400 0.9375rem 'GraphikRegular';
+}
+.banner_button {
+    margin-bottom: 52px;
+}

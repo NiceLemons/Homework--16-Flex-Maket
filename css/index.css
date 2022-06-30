@@ -12,12 +12,11 @@ img {
 }
 @font-face {
     font-family: "GraphikBold";
-    src: url(../fonts/GraphikLCG-Regular.ttf);
-    font-weight: 600px;
+    src: url(../fonts/GraphikLCG-Semibold.ttf);
 }
 @font-face {
     font-family: "GraphikRegular";
-    src: url(../fonts/GraphikLCG-Semibold.ttf);
+    src: url(../fonts/GraphikLCG-Regular.ttf);
     font-weight: 400px;
 }
 .container {
