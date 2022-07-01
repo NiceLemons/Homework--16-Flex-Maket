@@ -151,7 +151,7 @@
     text-decoration: underline;
     line-height: 1px;
 }
-.grathics_text_four {
+.graphics_text-four {
     font: 400 1.25rem "GraphikRegular";
     line-height: 30px;
     max-width: 520px;
@@ -164,4 +164,60 @@
     row-gap: 13px;
     justify-content: center;
     padding-bottom: 6px;
+}
+.card_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 30%;
+    width: 30%;
+}
+.card img {
+    max-width: 160px;
+    max-height: 120px;
+    margin: auto;
+}
+.card p {
+    max-height: 75px;
+    overflow: hidden;
+    max-width: 327px;
+    text-align: center;
+    font: 400 1.125rem "GraphikRegular";
+    line-height: 25px;
+    align-self: center;
+}
+.card_desc  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 27px;
+}
+.wrapper-h3 {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column
+}
+.card_desc h4 {
+    font: 600 1.5625rem "GraphikBold";
+    text-align: center;
+    margin: 0;
+}
+.card_h3 {
+    font: 600 3.125rem "GraphikBold";
+    margin: 0 0 84px 0;
+}
+.card-wrapper {
+    background-color: #FFF8E4;
+    padding: 125px 0 0 0;
+}
+.card_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 56px;
+    column-gap: 7px;
 }
