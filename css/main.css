@@ -1,14 +1,15 @@
 .banner-image {
     max-width: 759px;
     max-height: 529px;
-    position: relative;
-    left: 599px;
-    bottom: 464px;
+    position: absolute;
+    right: 298px;
+    top: 246px;
 }
 .banner {
     position: relative;
     top: 85px;
     left: 60px;
+    margin-bottom: 262px;
 }
 .banner h1 {
     font: 600 4.0625rem "GraphikBold";
@@ -46,4 +47,121 @@
 }
 .banner_button {
     margin-bottom: 52px;
+}
+.topic-text {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 110px;
+}
+.topic-text h2 {
+    font: 600 3.125rem "GraphikBold";
+    line-height: 60px;
+    max-width: 720px;
+    max-height: 120px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 68px;
+}
+.company_image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.company_info {
+    background-color: #FF9C7D;
+    padding: 68px 0 105px 0;
+    margin-bottom: 90px;
+}
+.grathics_h3-one {
+    font: 600 3.125rem "GraphikBold";
+    line-height: 60px;
+    max-width: 493px;
+    max-height: 120px;
+    overflow: hidden;
+    margin: 0;
+}
+.graphics_one {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    margin-right: 29px;
+    row-gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.container_main {
+    display: flex;
+    justify-content: space-between;
+}
+.container_main img {
+    max-width: 632px;
+    max-height: 632px;
+}
+.graphics_text-one {
+    font: 400 1.25rem "GraphikRegular";
+    line-height: 30px;
+    max-width: 491px;
+    max-height: 120px;
+    overflow: hidden;
+}
+.start_now {
+    font: 600 1.25rem "GraphikBold";
+    overflow: hidden;
+    color: black;
+}
+.grathics_h3-two {
+    max-width: 379px;
+    font: 600 3.125rem "GraphikBold";
+    line-height: 60px;
+    max-height: 120px;
+    overflow: hidden;
+    margin: 0;
+}
+.graphics_text-two {
+    font: 400 1.25rem "GraphikRegular";
+    line-height: 30px;
+    max-width: 450px;
+    max-height: 150px;
+    overflow: hidden;
+}
+.graphics_two {
+    display: flex;
+    flex-direction: column;
+    margin-right: 69px;
+    row-gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.grathics_text-three {
+    font: 400 1.25rem "GraphikRegular";
+    line-height: 30px;
+    max-width: 520px;
+    max-height: 150px;
+    overflow: hidden;
+}
+.graphics_three {
+    display: flex;
+    flex-direction: column;
+    margin-right: 69px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+.underline {
+    text-decoration: underline;
+    line-height: 1px;
+}
+.grathics_text_four {
+    font: 400 1.25rem "GraphikRegular";
+    line-height: 30px;
+    max-width: 520px;
+    max-height: 120px;
+    overflow: hidden;
+}
+.graphics_four {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    justify-content: center;
+    padding-bottom: 6px;
 }
