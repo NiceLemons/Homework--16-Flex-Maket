@@ -149,7 +149,8 @@
 }
 .underline {
     text-decoration: underline;
-    line-height: 1px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 .graphics_text-four {
     font: 400 1.25rem "GraphikRegular";
@@ -212,7 +213,7 @@
 }
 .card-wrapper {
     background-color: #FFF8E4;
-    padding: 125px 0 0 0;
+    padding: 125px 0 130px 0;
 }
 .card_info {
     display: flex;
