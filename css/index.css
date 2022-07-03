@@ -45,14 +45,16 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-shadow: 4px -2px 5px rgba(0,0,0,0.8);
-    -webkit-transition: all 0.3s 0.1s ease;
-    -moz-transition: all 0.3s 0.1s ease;
-    -o-transition: all 0.3s 0.1s ease;
-    transition: all 0.3s 0.1s ease;
+    border-radius: 30px;
+    text-shadow: black 0.2rem 0.1rem 0.2rem;
 }
+
 .flex {
     display: flex;
+}
+.width img {
+    width: auto;
+    height: auto;
 }
 
 
