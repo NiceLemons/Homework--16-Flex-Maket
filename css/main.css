@@ -299,7 +299,7 @@
 }
 .Edward_photo {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 .edward_info-desc img {
