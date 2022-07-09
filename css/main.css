@@ -1,15 +1,6 @@
-.banner-image {
-    max-width: 759px;
-    max-height: 529px;
-    position: absolute;
-    right: 298px;
-    top: 246px;
-}
 .banner {
-    position: relative;
-    top: 85px;
-    left: 60px;
-    margin-bottom: 262px;
+    flex: 1 1 47%;
+    padding: 6.5% 0 0 4.3%;
 }
 .banner h1 {
     font: 600 4.0625rem "GraphikBold";
@@ -20,6 +11,13 @@
     overflow: hidden;
     margin-bottom: 50px;
 }
+.banner_wrapper {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    margin-bottom: 194px;
+    flex-wrap: wrap;
+}
 .banner_text {
     font: 400 1.5625rem 'GraphikRegular';
     line-height: 35px;
@@ -27,6 +25,13 @@
     max-height: 140px;
     overflow: hidden;
     margin-bottom: 70px;
+}
+.banner_wrapper-img {
+    padding: 151px 32px 0 0px;
+    flex: 1 1 50%;
+}
+.bird {
+    flex: 0 0 50%;
 }
 .banner_button-try_it_free {
     padding: 22px 42px 22px 42px;
@@ -51,26 +56,24 @@
 .topic-text {
     display: flex;
     justify-content: center;
-    padding: 0 0 0 110px;
 }
 .topic-text h2 {
     font: 600 3.125rem "GraphikBold";
     line-height: 60px;
-    max-width: 720px;
-    max-height: 120px;
-    overflow: hidden;
     text-align: center;
     margin-bottom: 68px;
 }
 .company_image {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
 }
 .company_info {
     background-color: #FF9C7D;
     padding: 68px 0 105px 0;
-    margin-bottom: 90px;
+    margin-bottom: 92px;
 }
 .grathics_h3-one {
     font: 600 3.125rem "GraphikBold";
@@ -83,19 +86,28 @@
 .graphics_one {
     display: flex;
     flex-direction: column;
-    margin-top: -30px;
     margin-right: 29px;
     row-gap: 10px;
-    padding-top: 20px;
+    padding-bottom: 1.1%;
     justify-content: center;
+}
+.control_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 258px;
+    column-gap: 56px;
 }
 .container_main {
     display: flex;
     justify-content: space-between;
 }
+.pad_for_edward {
+    padding-bottom: 106px !important;
+}
 .container_main img {
-    max-width: 632px;
-    max-height: 632px;
+    flex: 0 1 30%;
 }
 .graphics_text-one {
     font: 400 1.25rem "GraphikRegular";
@@ -127,9 +139,7 @@
 .graphics_two {
     display: flex;
     flex-direction: column;
-    margin-right: 69px;
     row-gap: 10px;
-    padding-top: 20px;
     justify-content: center;
 }
 .grathics_text-three {
@@ -142,7 +152,6 @@
 .graphics_three {
     display: flex;
     flex-direction: column;
-    margin-right: 69px;
     row-gap: 10px;
     justify-content: center;
     margin-bottom: 21px;
@@ -169,16 +178,16 @@
 .card_info {
     display: flex;
     flex-wrap: wrap;
-}
-.card {
-    max-width: 30%;
-    width: 30%;
+    justify-content: center;
+    row-gap: 18px;
+    column-gap: 7px;
 }
 .card img {
     max-width: 160px;
     max-height: 120px;
     margin: auto;
 }
+
 .card p {
     max-height: 75px;
     overflow: hidden;
@@ -187,12 +196,10 @@
     font: 400 1.125rem "GraphikRegular";
     line-height: 25px;
     align-self: center;
+    margin: 8% 0;
 }
 .card_desc  {
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-    margin-top: 27px;
+    margin: 7% 0;
 }
 .wrapper-h3 {
     display: flex;
@@ -200,7 +207,10 @@
 }
 .card {
     display: flex;
-    flex-direction: column
+    flex: 1 1 33%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .card_desc h4 {
     font: 600 1.5625rem "GraphikBold";
@@ -212,29 +222,53 @@
     margin: 0 0 84px 0;
 }
 .card-wrapper {
-    background-color: #FFF8E4;
-    padding: 125px 0 130px 0;
+    padding: 125px 0 90px 0;
+}
+.bird img, .banner-image{
+    width: 100%;
+    height: auto;
+}
+.shorten-wrapper, .ensure-wrapper, .less-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 9.6%;
+}
+.shorten-wrapper {
+    margin-bottom: 240px;
+}
+.ensure-wrapper {
+    margin-bottom: 250px;
+    column-gap: 9%;
 }
 .card_info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 56px;
+    row-gap: 18px;
     column-gap: 7px;
 }
+.p_one {
+    padding-bottom: 1px !;
+}
 .about_team {
-    margin: 157px 0 -28px 0;
+    margin: 157px 0 224px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .about_team_card-photo img {
    width: auto;
    height: auto;
 }
 .about_team_card {
-    max-width: 30%;
+    flex: 0 1 30%;
 }
 .card_wrapper {
     display: flex;
-    column-gap: 53px
+    column-gap: 53px;
+    flex-wrap: wrap;
 }
 .about_team h2 {
     margin-bottom: 80px;
@@ -278,6 +312,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .edward_info-desc {
     padding: 33px 0 60px 0;
@@ -293,7 +328,7 @@
 .edward_info-desc span {
     font: 400 0.9375rem 'GraphikRegular';
 }
-.Edward_photo img, .edward_info-desc img {
+ .edward_info-desc img {
     width: auto;
     height: auto;
 }
@@ -301,15 +336,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 53px;
 }
 .edward_info-desc img {
     margin-top: 10px;
 }
-.cake {
-    display: inline-block;
-}
 .bg-blue {
     background-color: #C9E8F2;
+}
+.company_image a {
+    flex: 0 0 10%;
 }
 .wrapper_about_company {
     display: flex;
@@ -317,17 +353,15 @@
 .about_company {
     display: flex;
     align-items: center;
-    max-width: 61.25%;
-    width: 61.25%;
     padding: 90px 0 88px 54px;
-    column-gap: 67px  ;
+    column-gap: 67px;
+    flex: 1 1 60%;
+    flex-wrap: wrap;
 }
 .about_company span {
     font: 600 2.1875rem 'GraphikBold';
     line-height: 50px;
-    max-width: 461px;
-    max-height: 100px;
-    overflow: hidden;
+    width: 56%;
 }
 .margin {
     margin: 0 auto 105px auto!important;
@@ -383,9 +417,6 @@
 .tools_wrapper h2 {
     font: 600 4.0625rem "GraphikBold";
     line-height: 75px;
-    max-width: 791px;
-    overflow: hidden;
-    max-height: 150px;
     text-align: center;
     margin: 0 0 -26px 0;
 }
@@ -420,9 +451,6 @@
 .made_easy_wrapper h2 {
     font: 600 4.0625rem 'GraphikBold';
     text-align: center;
-    max-width: 784px;
-    max-height: 150px;
-    overflow: hidden;
     line-height: 75px;
     margin: 0 0 14px 0;
 }

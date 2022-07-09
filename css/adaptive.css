@@ -1,0 +1,195 @@
+@media screen and (max-width: 1438px) {
+    .about_team_card {
+        flex: 1 1 47%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_wrapper {
+        row-gap: 100px;
+    }
+    .card {
+        flex: 1 1 47%;
+    }
+    .card_info{
+        column-gap: 6%;
+    }
+}
+@media screen and (max-width: 1418px) {
+    .control_wrapper, .shorten-wrapper, .ensure-wrapper, .less-wrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width: 1384px) {
+    .footer_wrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .footer_wrapper_list {
+        justify-content: center;
+        width: 100%;
+    }
+    .footer_card {
+        align-self: flex-start;
+    }
+}
+@media screen and (max-width: 1367px) {
+    .Edward_info {
+        justify-content: center;
+    }
+    .wrapper_about_company {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .about_company_two_wrapper {
+        justify-content: space-around;
+        width: 100%;
+        max-width: 100%;
+    }
+    .about_company {
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1355px) {
+    .control_wrapper, .shorten-wrapper {
+        justify-content: center;
+    }
+    .control_wrapper {
+        row-gap: 56px;
+    }
+
+}
+@media screen and (max-width: 1246px) {
+    .banner_wrapper-img img {
+        width: 0;
+        height: 0;
+    }
+    .banner_wrapper-img {
+        flex: 0 0 0;
+    }
+    .banner {
+        flex: 0 0 0;
+    }
+    .banner_wrapper {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .header {
+        flex-direction: column;
+        row-gap: 50px;
+        padding-bottom: 50px;
+    }
+    .header_button {
+        margin: 0;
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .footer_list {
+        flex: 0 1 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_wrapper_list {
+        row-gap: 50px;
+    }
+    .company_image {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 13%;
+        row-gap: 50px;
+    }
+    .company_image a {
+        flex:  0 0 14%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .footer_list {
+        flex: 0 1 31%;
+    }
+    .footer_wrapper_list {
+        justify-content: center;
+    }
+    .footer_card {
+        align-self: center;
+    }
+
+}
+@media screen and (max-width: 934px) {
+    .card_h2 {
+        text-align: center;
+    }
+    .card {
+        flex: 1 1 50%;
+    }
+
+}
+@media screen and (max-width: 876px) {
+
+
+}
+@media screen and (max-width: 826px) {
+    .footer_list {
+        flex: 0 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company_image {
+    column-gap: 15%;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .footer_bottom {
+        padding: 47px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+    }
+
+}
+@media screen and (max-width: 540px) {
+    .left, .right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .company_image a {
+        flex: 0 1 37%;
+    }
+    .company_image {
+        column-gap: 73%;
+    }
+
+
+}
+@media screen and (max-width: 418px) {
+    .about_company_two_wrapper {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+}
+@media screen and (max-width: 438px) {
+    .grathics_h3-one, .grathics_h3-two, .banner h1, .about_team h2, .made_easy_wrapper h2 {
+        font: 600 2rem "GraphikBold";
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .grathics_h3-one, .grathics_h3-two {
+        font: 600 1.5rem "GraphikBold";
+    }
+
+}

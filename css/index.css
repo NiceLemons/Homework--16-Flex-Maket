@@ -2,8 +2,14 @@
 @import url(main.css);
 @import url(footer.css);
 @import url(Normalize.css);
+@import url(adaptive.css);
+
 * {
     box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    font-size: 1rem;
 }
 img {
     display: block;
@@ -33,7 +39,6 @@ img {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 75px;
-    margin-bottom: 250px;
 }
 .container_main:nth-of-type(6n) {
     max-width: 1440px;
@@ -41,22 +46,49 @@ img {
     padding: 0 75px;
     margin-bottom: 150px;
 }
+ .footer-specialized img, .for_bootom_span img, .left img, .cake {
+    width: auto;
+}
 a {
     text-decoration: none;
 }
-a:hover {
+a:hover:not(.header_item-link, .footer_list a) {
     border-radius: 30px;
     text-shadow: black 0.2rem 0.1rem 0.2rem;
 }
-
+.made_easy_wrapper span:hover {
+    color: #DABC98;
+}
 .flex {
     display: flex;
-}
-.width img {
-    width: auto;
-    height: auto;
 }
 .mb50 {
     margin-bottom: 50px;
 }
+.container_absolute {
+    padding: 0;
+    margin: 0;
+}
 
+body::-webkit-scrollbar {
+    width: 14px;
+  }
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #FF9C7D;
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+.bg_orange {
+    background-color: #FFF8E4;
+}
+.bg-brown {
+    background-color: #DABC98;
+    ;
+}
+.bg-red {
+    background-color: #FF9C7D;
+}
