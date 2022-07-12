@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 minimum-scale=1.0">
         <link rel="stylesheet" href="css/index.css">
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
         <title>Homework #16</title>
     </head>
     <body>
@@ -56,12 +60,18 @@
                             <h2>The preferred localization tool of 1500+ companies</h2>
                         </div>
                         <div class="company_image">
-                            <a href="#"><img class="Specialized" src="image/companies/Specialized.svg" alt="Specialized"></a>
-                            <a href="#"><img class="Virqin" src="image/companies/Virqin.svg" alt="Virqin"></a>
-                            <a href="#"><img class="Tidal" src="image/companies/Tidal.svg" alt="Tidal"></a>
-                            <a href="#"><img class="Revolut" src="image/companies/Revolut.svg" alt="Revolut"></a>
-                            <a href="#"><img class="Yelp" src="image/companies/Yelp.svg" alt="Yelp"></a>
-                            <a href="#"><img class="Daimler" src="image/companies/Daimler.svg" alt="Daimler"></a>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide"><img class="Specialized" src="image/companies/Specialized.svg" alt="Specialized"></div>
+                                  <div class="swiper-slide"><img class="Virqin" src="image/companies/Virqin.svg" alt="Virqin"></div>
+                                  <div class="swiper-slide"><img class="Tidal" src="image/companies/Tidal.svg" alt="Tidal"></div>
+                                  <div class="swiper-slide"><img class="Revolut" src="image/companies/Revolut.svg" alt="Revolut"></div>
+                                  <div class="swiper-slide"><img class="Yelp" src="image/companies/Yelp.svg" alt="Yelp"></div>
+                                  <div class="swiper-slide"><img class="Daimler" src="image/companies/Daimler.svg" alt="Daimler"></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                              </div>
                         </div>
                    </div>
                 </div>
@@ -384,3 +394,47 @@
         </footer>
     </body>
 </html>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    autoplay: true,
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    400: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    loop: true,
+    slidesPerView: 3,
+    // when window width is >= 480px
+    550: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    loop: true,
+    slidesPerView: 3,
+    // when window width is >= 640px
+    864: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    },
+    loop: true,
+    slidesPerView: 3,
+  }
+    });
+  </script>
