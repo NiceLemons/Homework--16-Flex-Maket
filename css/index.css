@@ -4,6 +4,9 @@
 @import url(Normalize.css);
 @import url(adaptive.css);
 
+.r:las {
+
+}
 * {
     box-sizing: border-box;
 }
